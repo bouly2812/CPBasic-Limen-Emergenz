@@ -27,6 +27,8 @@ Es erweitert und verifiziert die Open-Source-Dokumentation aus dem primären Rep
 *   **`/hardware` (Empirische Messapparatur)**
     *   **32-CH EEG Magnetic Sensing Prototype (REV 1.2):** Vollständiger Bauplan eines physischen Messaufbaus (1485 € Build-Kosten)[cite: 4].
     *   **Sensorik & Signalverarbeitung:** 32x EEG-Spulen (20 cm, 1000 Wdg.), 3-Achsen-Psi-Sensoren ($\Psi_x, \Psi_y, \Psi_z$), INA128 Verstärker, ADS1115 (16-bit ADC), ESP32-WROOM und GPU/CPU-Cluster[cite: 4].
+    *  ## 📷 Hardware Blueprint (REV 1.2)
+![REV 1.2 Schematic](hardware/rev1_2_schematic.png) 
     *   **Signalpfad:**
         $$\text{EEG COILS (1–32)} \longrightarrow \text{INA128} \longrightarrow \text{ADS1115} \longrightarrow \text{ESP32/GPU} \longrightarrow \text{CPU (Cortex-M7)} \longrightarrow \text{DATA OUT}$$
 [cite: 4]
