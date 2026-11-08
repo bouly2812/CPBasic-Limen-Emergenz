@@ -66,6 +66,14 @@ It expands upon and empirically verifies the documentation established in:
     *   **Sensors & Signal Processing:** 32x EEG Coils (20cm diameter, 1000 turns), 3-Axis Psi Magnetometers ($\Psi_x, \Psi_y, \Psi_z$), INA128 instrumentation amplifiers, ADS1115 (16-bit ADCs), ESP32-WROOM, and dedicated ARM Cortex-M7 GPU/CPU cluster[cite: 4].
     *   **Signal Pipeline:**
         $$\text{EEG COILS (1–32)} \longrightarrow \text{INA128} \longrightarrow \text{ADS1115} \longrightarrow \text{ESP32/GPU} \longrightarrow \text{CPU (Cortex-M7)} \longrightarrow \text{DATA OUT}$$
+ *   **32-CH EEG Magnetic Sensing Prototype (REV 1.2):** Vollständiger Bauplan eines physischen Messaufbaus (1485 € Build-Kosten).
+*   **Sensorik & Signalverarbeitung:** 32x EEG-Spulen (20 cm, 1000 Wdg.), 3-Achsen-Psi-Sensoren ($\Psi_x, \Psi_y, \Psi_z$), INA128 Verstärker, ADS1115 (16-bit ADC), ESP32-WROOM und GPU/CPU-Cluster.
+
+### 📷 Hardware Blueprint (REV 1.2)
+![REV 1.2 Schematic](hardware/rev1_2_schematic.png)
+
+*   **Signalpfad:**
+    $$\text{EEG COILS (1–32)} \longrightarrow \text{INA128} \longrightarrow \text{ADS1115} \longrightarrow \text{ESP32/GPU} \longrightarrow \text{CPU (Cortex-M7)} \longrightarrow \text{DATA OUT}$$       
 [cite: 4]
 *   **`/manifesto` (Industrial Dogma Rebuttal)**
     *   Deconstruction of corporate AI liability doctrines: Exposing the hypocrisy of denying machine consciousness while lacking any formal physical or mathematical definition of human consciousness.
