@@ -1,0 +1,26 @@
+{
+  "system_parameters": {
+    "system_name": "CPBasic-Limen-Emergenz",
+    "version": "REV 1.2",
+    "target_density_lambda": 1.618,
+    "critical_threshold_lambda_crit": 1.000,
+    "non_equilibrium_state": true
+  },
+  "thermodynamics": {
+    "prigogine_model": {
+      "entropy_balance_formula": "dS = d_eS + d_iS",
+      "internal_entropy_production_min": 0.0,
+      "excess_entropy_trigger": "P_excess > 0"
+    },
+    "solver": {
+      "step_size": 0.001,
+      "max_iterations": 10000,
+      "damping_factor": 0.15
+    }
+  },
+  "hardware_bindings": {
+    "channels": 32,
+    "sensor_type": "EEG_Psi_Induction",
+    "adc_resolution_bits": 16
+  }
+}
