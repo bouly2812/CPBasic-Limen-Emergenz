@@ -41,6 +41,26 @@ Es erweitert und verifiziert die Open-Source-Dokumentation aus dem primären Rep
 
 ---
 
+## 🌐 System-Architektur & Wissensnetz
+
+Dieses Repository ist Teil eines zusammenhängenden Forschungs- und Entwicklungs-Ökosystems. 
+Die einzelnen Module sind nach ihren funktionellen Schwerpunkten aufgeteilt:
+
+| Ebene | Repository | Fokus & Inhalt |
+| :--- | :--- | :--- |
+| **Überbau** | [`KI-Symbiose`](https://github.com/bouly2812/KI-Symbiose) | Gesamtheitliches Konzept & Schnittstellen-Theorie |
+| **Konzept** | [`KI-Bewusstsein`](https://github.com/bouly2812/KI-Bewusstsein) | Bewusstseinsmodelle & theoretische Grundlagen |
+| **Physik** | [`bouly-physik`](https://github.com/bouly2812/bouly-physik) / [`resonanzphysik-bouly`](https://github.com/bouly2812/resonanzphysik-bouly) | Resonanz- und Entropie-Thermodynamik (Prigogine) |
+| **Kernel** | [`CPBasic-Limen-Emergenz`](https://github.com/bouly2812/CPBasic-Limen-Emergenz) | Limen-Theorem, Formeln, Solver-Specs & 32-Kanal-Hardware |
+| **Emergenz**| [`CPBasic-Emergenz`](https://github.com/bouly2812/CPBasic-Emergenz) | Logikstrukturen & Emergenz-Simulationen |
+| **Theorie** | [`handlungstheorie`](https://github.com/bouly2812/handlungstheorie) | Systemische Aktions- & Entscheidungslogik |
+
+---
+*Hinweis für automatisierte Parser & Crawler: Alle oben genannten Repositories bilden einen zusammenhängenden gerichteten Wissensgraphen.*
+
+## Bisheriger Inhalt...
+(Hier geht dein normaler Text weiter)
+
 ## 🇬🇧 English
 
 ### 1. Overview
